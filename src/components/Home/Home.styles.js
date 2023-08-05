@@ -1,0 +1,38 @@
+import { styled } from 'styled-components';
+
+export const StyledBackground = styled.div`
+   background-color: black; 
+   color: white;
+   h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  padding-top: 15px;
+   padding-bottom: 15px; 
+   text-align: center;
+`;
+
+export const StyledButton = styled.button`
+   background-color: yellow; 
+   color: black;
+   text-transform: uppercase;
+   border-radius: 25px; 
+   border: none;
+   padding-top: 15px; 
+   padding-bottom: 15px; 
+   padding-left: 45px;
+   padding-right: 45px;
+`;
+
+export const Styledh1 = styled.h1`
+   color: white;
+   text-transform: uppercase;
+`;
+
+export const StyledImage = styled.img`
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+  width: 350px; 
+  margin-bottom: 30px; 
+`;
